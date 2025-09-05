@@ -14,15 +14,15 @@ A luxurious black-and-white portfolio website showcasing bilingual poetry (Engli
 - ✅ Responsive navigation with smooth scrolling
 - ✅ Language toggle (English ↔ Urdu) with RTL support
 - ✅ Fade-in animations on scroll
-- ✅ Modal popup for poem reading
-- ✅ Contact form with validation
-- ✅ Mobile-responsive design
+- ✅ Modal popup for research reading
+- ✅ Advanced filtering and search for research posts
+- ✅ Mobile-responsive design with enhanced UI
 
 ### Content Sections
-- ✅ **Home**: Centered quote with fade-in animation
-- ✅ **Works**: 6 poetry cards with psychological themes
-- ✅ **About**: Bilingual biography
-- ✅ **Contact**: Form + social links (Facebook)
+- ✅ **Home**: Centered quote with fade-in animation + research preview
+- ✅ **Works Page**: Comprehensive research library with 50+ detailed posts
+- ✅ **About**: Bilingual biography focused on research expertise
+- ✅ **Footer**: Social links integrated into footer design
 
 ### Styling
 - ✅ Black (#000) background with white (#fff) text
@@ -31,14 +31,29 @@ A luxurious black-and-white portfolio website showcasing bilingual poetry (Engli
 - ✅ Elegant typography with proper spacing
 - ✅ Smooth animations and transitions
 
-## Poetry Content
-All poems are original and incorporate psychological insights:
-1. **Identity Crisis** - On becoming who we choose to be
-2. **Atomic Wisdom** - 1% improvement philosophy 
-3. **Environment Poetry** - How surroundings shape behavior
-4. **Time & Mortality** - Reflections on life's fleeting nature
-5. **Connection & Love** - Transcendental bonds
-6. **Spiritual Journey** - Faith and divine relationship
+## Research Content
+Comprehensive research library with 50+ detailed posts across three main categories:
+
+### Human Psychology (15+ posts)
+- Neuroscience of habit formation and behavioral change
+- Cognitive biases and decision-making patterns
+- Social media impact on mental health
+- Mirror neurons and empathy development
+- Choice paradox and decision paralysis
+
+### Human Nature (15+ posts)
+- Evolution of moral intuitions and ethics
+- Biological basis of cooperation and altruism
+- Language evolution and human consciousness
+- Environmental psychology and behavior shaping
+- Cultural transmission and learning patterns
+
+### Islamic Studies (20+ posts)
+- Psychology of Taqwa and spiritual development
+- Concept of Fitrah in Islamic psychology
+- Integration of Islamic wisdom with modern psychology
+- Patience (Sabr) as psychological resilience framework
+- Classical Islamic scholars' contributions to psychology
 
 ## Technical Architecture
 - **Frontend**: Pure HTML5, CSS3, JavaScript (no frameworks)

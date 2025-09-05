@@ -502,30 +502,6 @@ function smoothScrollTo(targetId) {
     }
 }
 
-// Form Submission
-function handleFormSubmission(event) {
-    event.preventDefault();
-    
-    // Get form data
-    const formData = new FormData(event.target);
-    const name = formData.get('name');
-    const email = formData.get('email');
-    const message = formData.get('message');
-    
-    // Simple validation
-    if (!name || !email || !message) {
-        alert(currentLanguage === 'en' ? 'Please fill in all fields.' : 'براہ کرم تمام فیلڈز بھریں۔');
-        return;
-    }
-    
-    // Simulate form submission
-    alert(currentLanguage === 'en' ? 
-        'Thank you for your message! I will get back to you soon.' : 
-        'آپ کے پیغام کا شکریہ! میں جلد آپ سے رابطہ کروں گا۔');
-    
-    // Reset form
-    event.target.reset();
-}
 
 // Initialize everything when DOM loads
 document.addEventListener('DOMContentLoaded', function() {
@@ -536,13 +512,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize animations
     initializeAnimations();
     
-    // Work card click handlers
-    document.querySelectorAll('.work-card').forEach(card => {
-        card.addEventListener('click', function() {
-            const poemId = this.getAttribute('data-poem');
-            openPoemModal(poemId);
-        });
-    });
     
     // Modal close handlers
     const modal = document.getElementById('poemModal');
@@ -572,9 +541,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Form submission
-    const contactForm = document.querySelector('.contact-form');
-    contactForm.addEventListener('submit', handleFormSubmission);
     
     // Audio button placeholder functionality
     document.addEventListener('click', function(event) {

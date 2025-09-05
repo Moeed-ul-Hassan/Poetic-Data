@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research & Works - Moeed ul Hassan</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="works-styles.css">
+</head>
+<body>
+    <!-- Language Toggle Button -->
+    <button id="languageToggle" class="language-toggle">
+        <span class="lang-en">اردو</span>
+        <span class="lang-ur hidden">English</span>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="lang-en">Moeed ul Hassan</span>
+                <span class="lang-ur hidden">معید الحسن</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html#home" class="nav-link">
+                    <span class="lang-en">Home</span>
+                    <span class="lang-ur hidden">ہوم</span>
+                </a></li>
+                <li><a href="works.html" class="nav-link active">
+                    <span class="lang-en">Research & Works</span>
+                    <span class="lang-ur hidden">تحقیق و تصانیف</span>
+                </a></li>
+                <li><a href="index.html#about" class="nav-link">
+                    <span class="lang-en">About</span>
+                    <span class="lang-ur hidden">تعارف</span>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Works Header -->
+    <section class="works-header">
+        <div class="container">
+            <h1 class="page-title fade-in">
+                <span class="lang-en">Research & Works</span>
+                <span class="lang-ur hidden">تحقیق و تصانیف</span>
+            </h1>
+            <p class="page-subtitle fade-in">
+                <span class="lang-en">Exploring Human Nature, Psychology, and Islamic Studies</span>
+                <span class="lang-ur hidden">انسانی فطرت، نفسیات، اور اسلامی علوم کی کھوج</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Research Categories -->
+    <section class="categories-section">
+        <div class="container">
+            <div class="category-filters fade-in">
+                <button class="filter-btn active" data-category="all">
+                    <span class="lang-en">All Research</span>
+                    <span class="lang-ur hidden">تمام تحقیق</span>
+                </button>
+                <button class="filter-btn" data-category="psychology">
+                    <span class="lang-en">Human Psychology</span>
+                    <span class="lang-ur hidden">انسانی نفسیات</span>
+                </button>
+                <button class="filter-btn" data-category="nature">
+                    <span class="lang-en">Human Nature</span>
+                    <span class="lang-ur hidden">انسانی فطرت</span>
+                </button>
+                <button class="filter-btn" data-category="islamic">
+                    <span class="lang-en">Islamic Studies</span>
+                    <span class="lang-ur hidden">اسلامی علوم</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Grid -->
+    <section class="research-grid-section">
+        <div class="container">
+            <div class="research-grid" id="researchGrid">
+                <!-- Research posts will be dynamically loaded here -->
+            </div>
+            
+            <!-- Load More Button -->
+            <div class="load-more-container fade-in">
+                <button id="loadMoreBtn" class="load-more-btn">
+                    <span class="lang-en">Load More Research</span>
+                    <span class="lang-ur hidden">مزید تحقیق لوڈ کریں</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Detail Modal -->
+    <div id="researchModal" class="modal">
+        <div class="modal-content research-modal-content">
+            <span class="close">&times;</span>
+            <div class="research-detail">
+                <div class="research-header">
+                    <h2 id="researchTitle"></h2>
+                    <div class="research-meta">
+                        <span id="researchDate"></span>
+                        <span id="researchCategory"></span>
+                        <span id="researchReadTime"></span>
+                    </div>
+                </div>
+                <div class="research-content" id="researchContent"></div>
+                <div class="research-tags" id="researchTags"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+            <span class="lang-en">Research by Moeed ul Hassan</span>
+            <span class="lang-ur hidden">معید الحسن کی تحقیق</span>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="works-script.js"></script>
+</body>
+</html>
