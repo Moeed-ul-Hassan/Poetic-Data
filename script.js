@@ -1,34 +1,9 @@
-// Poetry content with psychological themes
+// Poetry content (Urdu only) and Quotes (English)
 const poems = {
     'identity-crisis': {
-        en: {
-            title: 'The Identity Mirror',
-            content: `Every action is a vote cast in silence,
-For the person we wish to become—
-Not the grand gestures that echo
-But the quiet choices that accumulate
-Like morning light collecting in corners.
-
-We are architects of ourselves,
-Building with habits as small as breath,
-Each decision a brick laid
-In the foundation of tomorrow's self.
-
-The mirror doesn't lie:
-It shows us not who we are,
-But who we've been choosing to be,
-One moment at a time.
-
-What if today, we voted differently?
-What if this breath, this choice,
-This single moment of decision
-Became the turning point
-Where we met ourselves as strangers,
-And liked what we found?`
-        },
-        ur: {
-            title: 'شناخت کا آئینہ',
-            content: `ہر عمل ایک خاموش ووٹ ہے
+        title: 'شناخت کا آئینہ',
+        quote: 'Every action is a vote for the type of person you wish to become.',
+        content: `ہر عمل ایک خاموش ووٹ ہے
 اس شخص کے لیے جو ہم بننا چاہتے ہیں—
 نہ وہ بڑے اشارے جو گونجتے ہیں
 بلکہ وہ خاموش انتخاب جو جمع ہوتے ہیں
@@ -50,40 +25,11 @@ And liked what we found?`
 وہ موڑ بن جائے
 جہاں ہم اپنے آپ سے اجنبیوں کی طرح ملیں،
 اور پسند کریں جو ہم نے پایا؟`
-        }
     },
     'atomic-wisdom': {
-        en: {
-            title: 'Atomic Wisdom',
-            content: `In the mathematics of becoming,
-One percent is not small—
-It is the compound interest of the soul,
-The quiet revolution of days.
-
-You do not need to be a different person by tomorrow;
-You need only be one percent braver,
-One percent kinder,
-One percent more yourself.
-
-Small changes break the architecture of the past:
-A book instead of a screen,
-A walk instead of worry,
-A pause instead of reaction.
-
-Years from now, you will stand
-In the cathedral of who you've become
-And marvel at how the smallest stones
-Built the highest walls.
-
-The universe conspires in increments,
-Blessing those who trust
-The power of atomic wisdom—
-That greatness grows in measurements too small to see,
-Until suddenly, it fills the sky.`
-        },
-        ur: {
-            title: 'چھوٹی حکمت',
-            content: `بننے کی ریاضی میں،
+        title: 'چھوٹی حکمت',
+        quote: 'You do not rise to the level of your goals; you fall to the level of your systems.',
+        content: `بننے کی ریاضی میں،
 ایک فیصد چھوٹا نہیں—
 یہ روح کا سودی نفع ہے،
 دنوں کا خاموش انقلاب۔
@@ -108,42 +54,11 @@ Until suddenly, it fills the sky.`
 چھوٹی حکمت کی طاقت پر—
 کہ عظمت ان پیمائشوں میں بڑھتی ہے جو دیکھنے کے لیے بہت چھوٹی ہیں،
 یہاں تک کہ اچانک، یہ آسمان کو بھر دیتی ہے۔`
-        }
     },
     'environment-poetry': {
-        en: {
-            title: 'The Invisible Hand',
-            content: `We are what we surround ourselves with—
-Not just the walls that hold us,
-But the subtle architects of atmosphere:
-The books that watch from shelves,
-The light that decides our mood,
-The silence that shapes our thoughts.
-
-Environment is the invisible hand
-That sculpts us while we sleep,
-Whispering suggestions to our subconscious:
-"This is who you are,
-This is what you do,
-This is what matters here."
-
-Want to change? Change your space.
-Move the chair where you scroll
-To where you dream instead.
-Place the guitar where the phone used to live.
-Let water remind you to drink life deeply.
-
-We think we choose our habits,
-But our habits choose their homes first—
-And in those homes, they wait for us
-Like patient lovers
-Who know we will return
-To who we've always been
-Unless we rearrange the furniture of our souls.`
-        },
-        ur: {
-            title: 'نادیدہ ہاتھ',
-            content: `ہم وہی ہیں جس سے اپنے آپ کو گھیرتے ہیں—
+        title: 'نادیدہ ہاتھ',
+        quote: 'Environment is the invisible hand that shapes us while we sleep.',
+        content: `ہم وہی ہیں جس سے اپنے آپ کو گھیرتے ہیں—
 نہ صرف وہ دیواریں جو ہمیں تھامتی ہیں،
 بلکہ ماحول کے لطیف معمار:
 وہ کتابیں جو قطاروں سے دیکھتی ہیں،
@@ -170,46 +85,11 @@ Unless we rearrange the furniture of our souls.`
 جو جانتے ہیں کہ ہم واپس آئیں گے
 اس کے پاس جو ہم ہمیشہ تھے
 جب تک کہ ہم اپنی روحوں کا فرنیچر نہ بدلیں۔`
-        }
     },
     'time-mortality': {
-        en: {
-            title: 'Temporal Echoes',
-            content: `Time is the currency we spend
-Without knowing the balance,
-The loan we cannot repay,
-The gift we unwrap too slowly.
-
-Each morning is a resurrection,
-Each night a small death—
-Between them, we live
-In the space between heartbeats,
-In the pause between breaths.
-
-What makes us rage against the dying light
-Is not death itself,
-But the unlived life,
-The words unspoken,
-The love ungiven,
-The dreams deferred so long
-They forget their own names.
-
-Yet mortality is not the enemy—
-It is the frame that gives the painting meaning,
-The deadline that turns possibility into urgency,
-The reminder that this moment,
-This very moment,
-Is all we truly own.
-
-In the end, we are measured
-Not by the length of our days,
-But by the depth of our presence
-In each irreplaceable second
-We are given.`
-        },
-        ur: {
-            title: 'وقت کی گونج',
-            content: `وقت وہ کرنسی ہے جسے ہم خرچ کرتے ہیں
+        title: 'وقت کی گونج',
+        quote: 'This moment, this very moment, is all we truly own.',
+        content: `وقت وہ کرنسی ہے جسے ہم خرچ کرتے ہیں
 بیلنس جانے بغیر،
 وہ قرض جو ہم ادا نہیں کر سکتے،
 وہ تحفہ جسے ہم بہت آہستہ کھولتے ہیں۔
@@ -240,50 +120,11 @@ We are given.`
 بلکہ ہماری موجودگی کی گہرائی سے
 ہر ناقابل تبدیل سیکنڈ میں
 جو ہمیں دیا گیا ہے۔`
-        }
     },
     'connection-love': {
-        en: {
-            title: 'Beyond Boundaries',
-            content: `Love is not what the poets promised—
-It is not roses or sunset walks,
-Not grand gestures or perfect words.
-
-Love is the way you listen
-To the silence between my sentences,
-How you hold space for my contradictions,
-The patience in your eyes
-When I am lost in my own maze.
-
-It is transcendental not because it lifts us
-Above the human condition,
-But because it makes us more human—
-More tender, more brave,
-More willing to be seen
-In all our broken glory.
-
-In love, we discover that boundaries
-Are just suggestions,
-That two hearts can beat
-In perfect synchrony
-While remaining entirely themselves.
-
-Love teaches us that connection
-Is not about losing ourselves in another,
-But about finding ourselves reflected
-In eyes that see us clearly
-And choose to stay anyway.
-
-This is the bond that exists
-Beyond the physical realm—
-Soul recognizing soul,
-Essence meeting essence,
-In the vast democracy of hearts
-That know no borders.`
-        },
-        ur: {
-            title: 'حدود سے پار',
-            content: `محبت وہ نہیں جس کا شاعروں نے وعدہ کیا تھا—
+        title: 'حدود سے پار',
+        quote: 'Love is not about losing ourselves in another, but finding ourselves reflected in eyes that see us clearly.',
+        content: `محبت وہ نہیں جس کا شاعروں نے وعدہ کیا تھا—
 یہ گلاب یا غروب کی سیر نہیں،
 نہ بڑے اشارے اور نہ کامل الفاظ۔
 
@@ -318,51 +159,11 @@ That know no borders.`
 ذات کا ذات سے ملنا،
 دلوں کی اس وسیع جمہوریت میں
 جو کوئی سرحد نہیں جانتی۔`
-        }
     },
     'spiritual-journey': {
-        en: {
-            title: 'Faith\'s Compass',
-            content: `Faith is not the absence of doubt—
-It is wrestling with angels in the dark,
-Questioning everything
-While believing in something larger
-Than the sum of our uncertainties.
-
-I have walked the razor's edge
-Between devotion and rebellion,
-Finding God in the questions
-As much as in the answers,
-In the silence between prayers
-As much as in their speaking.
-
-The divine does not demand
-Our perfect understanding,
-Only our authentic engagement—
-The courage to approach the mystery
-With open hands and honest hearts,
-Even when the path disappears
-Into fog and faith.
-
-Sometimes I am Jacob,
-Wrestling until dawn
-For a blessing I cannot name.
-Sometimes I am Thomas,
-Needing to touch the wounds
-To believe in resurrection.
-
-But always, I am human,
-Standing at the intersection
-Of heaven and earth,
-Using faith as my compass
-Through the unmarked territory
-Of the soul's geography,
-Trusting that even in my wandering,
-I am being led home.`
-        },
-        ur: {
-            title: 'ایمان کا قطب نما',
-            content: `ایمان شک کی عدم موجودگی نہیں—
+        title: 'ایمان کا قطب نما',
+        quote: 'Faith is not the absence of doubt; it is wrestling with angels in the dark.',
+        content: `ایمان شک کی عدم موجودگی نہیں—
 یہ اندھیرے میں فرشتوں سے کشتی لڑنا ہے،
 ہر چیز پر سوال اٹھانا
 جبکہ کسی بڑی چیز پر یقین رکھنا
@@ -397,7 +198,6 @@ I am being led home.`
 نشان زدہ علاقے سے گزرتے ہوئے،
 یقین رکھتے ہوئے کہ اپنی آوارگی میں بھی،
 مجھے گھر کی طرف لے جایا جا رہا ہے۔`
-        }
     }
 };
 
@@ -458,27 +258,21 @@ function openPoemModal(poemId) {
     titleElement.innerHTML = '';
     contentElement.innerHTML = '';
     
-    // Add English content
-    const englishTitle = document.createElement('div');
-    englishTitle.className = 'lang-en' + (currentLanguage === 'ur' ? ' hidden' : '');
-    englishTitle.textContent = poem.en.title;
-    titleElement.appendChild(englishTitle);
+    // Set Urdu title (poetry is Urdu only)
+    titleElement.textContent = poem.title;
     
-    const englishContent = document.createElement('div');
-    englishContent.className = 'poem-text lang-en' + (currentLanguage === 'ur' ? ' hidden' : '');
-    englishContent.textContent = poem.en.content;
-    contentElement.appendChild(englishContent);
+    // Create content container with English quote and Urdu poetry
+    const quoteElement = document.createElement('div');
+    quoteElement.className = 'poem-quote';
+    quoteElement.innerHTML = `<em>"${poem.quote}"</em>`;
     
-    // Add Urdu content
-    const urduTitle = document.createElement('div');
-    urduTitle.className = 'lang-ur' + (currentLanguage === 'en' ? ' hidden' : '');
-    urduTitle.textContent = poem.ur.title;
-    titleElement.appendChild(urduTitle);
+    const poemElement = document.createElement('div');
+    poemElement.className = 'poem-text';
+    poemElement.style.whiteSpace = 'pre-line';
+    poemElement.textContent = poem.content;
     
-    const urduContent = document.createElement('div');
-    urduContent.className = 'poem-text lang-ur' + (currentLanguage === 'en' ? ' hidden' : '');
-    urduContent.textContent = poem.ur.content;
-    contentElement.appendChild(urduContent);
+    contentElement.appendChild(quoteElement);
+    contentElement.appendChild(poemElement);
     
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden'; // Prevent background scrolling

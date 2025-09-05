@@ -782,7 +782,7 @@ const completeResearch = [...allResearch, ...generateAdditionalResearch()];
 
 // Current state
 let currentCategory = 'all';
-let currentLanguage = 'en';
+// currentLanguage is declared in script.js as a global variable
 let displayedCount = 9; // Initial number of posts to show
 let currentResearch = completeResearch;
 
